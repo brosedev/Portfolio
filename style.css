@@ -26,6 +26,14 @@ ul {
   color: #fff;
 }
 
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Header */
 header {
   background: #35424a;
@@ -128,6 +136,29 @@ header a:hover {
   width: 110px;
 }
 
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 10%
+  margin-top: 10px;
+}
+
+/* Main-col */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* Services */
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #ccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+/* Footer */
 footer {
   padding: 20px;
   margin-top: 20px;
